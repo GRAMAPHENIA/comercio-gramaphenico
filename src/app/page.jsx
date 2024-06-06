@@ -22,12 +22,12 @@ export default async function Home() {
       <h1>Feed</h1>
       {posts.map((post) => {
         return (
-          <Post 
-          key={post.id}
-          id={post.id}
-          title={post.title}
-          content={post.content}
-          authorName={post.author.name}
+          <Post
+            key={post.id}
+            id={post.id}
+            title={post.title}
+            content={post.content}
+            authorName={post.author.name}
           />
         );
       })}
