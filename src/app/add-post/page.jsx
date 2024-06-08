@@ -47,7 +47,12 @@ export default function AddPost() {
 
   return (
     <main className={styles.main}>
-      <Link className="border rounded-md p-4 mb-8 bg-blue-400/20 hover:bg-blue-400/60" href={"/"}>View Feed</Link>
+      <Link
+        className="border rounded-md p-4 mb-8 bg-blue-400/20 hover:bg-blue-400/60"
+        href={"/"}
+      >
+        View Feed
+      </Link>
       <h1>Add Post</h1>
       <form className="flex flex-col items-start" onSubmit={handleSubmit}>
         <div className="text-white bg-slate-900 bg-opacity-10 my-4 flex flex-col items-start">

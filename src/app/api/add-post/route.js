@@ -15,6 +15,7 @@ export async function POST(request) {
     data: {
       title,
       content,
+      published: true,
       author: {
         create: {
           name: "Jhon Doe",
