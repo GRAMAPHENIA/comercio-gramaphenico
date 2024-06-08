@@ -48,12 +48,12 @@ export default function AddPost() {
   return (
     <main className={styles.main}>
       <Link
-        className="border rounded-md p-4 mb-8 bg-blue-400/20 hover:bg-blue-400/60"
+        className="text-blue-400 border-2 border-blue-500 rounded-full bg-blue-500/30 px-4 py-2 mb-10"
         href={"/"}
       >
         View Feed
       </Link>
-      <h1>Add Post</h1>
+      <h1 className="text-6xl mb-5">Agregando...</h1>
       <form className="flex flex-col items-start" onSubmit={handleSubmit}>
         <div className="text-white bg-slate-900 bg-opacity-10 my-4 flex flex-col items-start">
           <label className="" htmlFor="title">
@@ -81,7 +81,7 @@ export default function AddPost() {
           />
         </div>
         <button
-          className="text-white bg-green-300/20 hover:bg-green-300/60 my-4 border rounded-[3px] p-4"
+          className="text-emerald-300 border-2 border-emerald-400 rounded-full bg-emerald-400/30 px-4 py-2 mb-20"
           type="submit"
         >
           Submit

@@ -15,5 +15,9 @@ export default function DeletePostButton({ postId }) {
     }
   }
 
-  return <button onClick={handleClick}>Delete Post</button>;
+  return (
+    <button className="text-red-400 border-2 border-red-500 rounded-full bg-red-500/30 px-4 py-2 mt-20" onClick={handleClick}>
+      Borrar
+    </button>
+  );
 }

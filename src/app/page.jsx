@@ -20,8 +20,8 @@ export default async function Home() {
   // console.log({ posts });
   return (
     <main className={styles.main}>
-      <Link href={'/add-post'}>Add Post</Link>
-      <h1>Feed</h1>
+      <Link className="border-2 border-blue-400 px-4 py-2 mb-10 rounded-full bg-blue-400/30 text-blue-400" href={'/add-post'}>Publicar</Link>
+      <h1 className="text-[48px] mb-10">PUBLICADO</h1>
       {posts.map((post) => {
         return (
           <Post
